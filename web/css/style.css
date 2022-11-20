@@ -1,0 +1,260 @@
+a
+	{
+	text-decoration: none;
+	}
+#main {
+	overflow: auto;
+}
+#header #logout {
+	font: 16px Arial, sans-serif;
+	color: #2240ff;
+	cursor: pointer;
+}
+#sidebar {
+	float: left;
+	width: 20%;
+}
+#main_menu {
+	list-style-type: none;
+	margin: 0;
+}
+#content {
+	float: left;
+	padding: 10px 0 0 10px;
+}
+.contentform div {
+	margin: 10px;
+}
+.contentform textarea {
+	display: block;
+	max-width: 90%;
+	font-size: 18px;
+}
+.contentform input {
+	font-size: 18px;
+}
+.contentform .art_name {
+	font-size: 24px;
+}
+.contentform .art_name input {
+	font-size: 24px;
+}
+.contentform [name="title"] {
+	width: 500px;
+	height: 40px;
+}
+.contentform [name="description"] {
+	width: 500px;
+	height: 100px;
+}
+.contentform [name="text"] {
+	width: 800px;
+	height: 400px;
+}
+#form_delete {
+	display: none;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	width: 200px;
+	height: 110px;
+	background-color: #AAA;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+#form_delete .buttons {
+	padding-top: 20px;
+}
+#form_delete input {
+	font-size: 18px;
+}
+#header
+	{
+	overflow: hidden;
+	min-height: 110px;
+	background-color: #E0E0FF;
+	}
+#header #userblock {
+	float: right;
+}
+#form_login div {
+	padding: 5px;
+}
+#form_login [type="text"], #form_login [type="password"] {
+	width: 200px;
+}
+#form_reg [type="text"], #form_reg [type="password"] {
+	width: 250px;
+}
+#form_reg div {
+	padding: 10px;
+}
+.codeinf
+	{
+	font-style: italic;
+	}
+#opcode
+	{
+	width: 19px;
+	height: 22px;
+	font-size: 24px;
+	line-height: 24px;
+	padding-left: 4px;
+	background-color: #E7F5FE;
+	border-left: 1px solid #C4C9FE;
+	border-top: 1px solid #C4C9FE;
+	border-right: 1px solid #C4C9FE;
+	cursor: pointer;
+	}
+#opentop
+	{
+	border-bottom-style: none;
+	display: none;
+	}
+#openbottom
+	{
+	border-top-style: none;
+	}
+.code
+	{
+	background-color: #E7F5FE;
+	border: 1px solid #C4C9FE;
+	}
+.code td
+	{
+	vertical-align: top;
+	}
+.code div
+	{
+	font-family: "Courier New";
+	font-size: 16px;
+	line-height: 21px;
+	margin: 1px;
+	}
+.code pre
+	{
+	font-family: "Courier New";
+	font-size: 16px;
+	line-height: 21px;
+	padding-top: 4px;
+	margin: 1px;
+	overflow-x: auto;
+	}
+.codenum
+	{
+	min-width: 18px;
+	border-right: 2px solid #BEBEBE;
+	padding: 4px;
+	}
+.codetext, .codehtml, .codecss, .codescript, .codephp
+	{
+	width: 630px;
+	}
+.colorscript
+	{
+	color: #2937FF;
+	font-style: italic;
+	font-weight: bold;
+	}
+.colorphp
+	{
+	color: #2937FF;
+	font-weight: bold;
+	}
+.colorvar
+	{
+	color: #240C8D;
+	}
+.colorte
+	{
+	color: #808080;
+	}
+.colortag
+	{
+	color: #2937FF;
+	}
+.coloratr
+	{
+	color: #CB3225;
+	}
+.colortehtml
+	{
+	color: #A30758;
+	}
+.colorsv
+	{
+	color: #46207F;
+	}
+.colorreg
+	{
+	color: #800785;
+	}
+.colorcoment
+	{
+	color: #176912;
+	}
+#pay div
+	{
+	margin-bottom: 20px;
+	}
+#pay .infpay
+	{
+	margin-bottom: 5px;
+	font: 15px Arial, sans-serif;
+	color: #2B2035;
+	}
+#pay input[type="text"]
+	{
+	height: 30px;
+	border: 2px solid #AAA;
+	border-radius: 5px;
+	font: 20px Tahoma, sans-serif;
+	color: #2B2035;
+	}
+#pay label
+	{
+	font: 20px Tahoma, sans-serif;
+	color: #2B2035;
+	}
+input[name="sitename"]
+	{
+	width: 300px;
+	}
+input[name="LMI_PAYMENT_AMOUNT"]
+	{
+	width: 100px;
+	}
+#pay input[type="submit"]
+	{
+	height: 40px;
+	width: 150px;
+	font: 22px Tahoma, sans-serif;
+	}
+.paypr
+	{
+	margin-top: 20px;
+	font: 20px Tahoma, sans-serif;
+	}
+#footer
+	{
+	background-image: url("footerfon.jpg");
+	margin-top: 10px;
+	height: 123px;
+	}
+#footert
+	{
+	padding: 30px 0 0 70px;
+	}
+#footer p
+	{
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	margin: 1px;
+	}
+#footer a
+	{
+	color: #FFF;
+	text-decoration: underline;
+	}
